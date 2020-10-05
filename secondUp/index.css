@@ -82,8 +82,14 @@ ul li::before {
   font-size: 16px;
   border-radius: 4px;
   cursor: pointer;
+  transition-duration: 0.4s;
 }
 
+
+.button:hover {
+  background-color: white;
+  color: green;
+}
 
 @media(max-width: 768px){
 	.pic{
